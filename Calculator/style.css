@@ -1,0 +1,23 @@
+/*------------calculator styling----------*/
+body{
+	background-color:brown;
+	padding:50px;
+}
+button{
+	padding:10px;
+	border:none;
+	color:black;
+	margin:9px;
+	width:80px;
+	font-size:30px; 
+	background-color:lightblue; 
+}
+input{
+	padding:20px;
+	font-size:80px;
+	width:350px;
+	text-align:right;
+	border:none;
+	border-radius:10px;
+	background-color:lightgrey;
+}

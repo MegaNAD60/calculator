@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="myScript.js"></script>
+</head>
+<body>
+	<center>
+		<form name="calculator">
+			<input type="text" name="display" id="display" placeholder="0"><br>
+			<button type="button" value="DEL" onclick="cleared();" style="cursor:pointer;width:290px;">DEL</button>
+			<button type="button" onclick="input('/');" style="cursor:pointer">/</button><br>
+			<button type="button" value="1" onclick="input('7');" style="cursor:pointer">7</button>
+			<button type="button" value="2" onclick="input('8');" style="cursor:pointer">8</button>
+			<button type="button" value="3" onclick="input('9');" style="cursor:pointer">9</button>
+			<button type="button" onclick="input('*');" style="cursor:pointer">&times;</button><br>
+			<button type="button" value="4" onclick="input('4');" style="cursor:pointer">4</button>
+			<button type="button" value="5" onclick="input('5');" style="cursor:pointer">5</button>
+			<button type="button" value="6" onclick="input('6');" style="cursor:pointer">6</button>
+			<button type="button" onclick="input('-');" style="cursor:pointer">-</button><br>
+			<button type="button" value="7" onclick="input('1');" style="cursor:pointer">1</button>
+			<button type="button" value="8" onclick="input('2');" style="cursor:pointer">2</button>
+			<button type="button" value="9" onclick="input('3');" style="cursor:pointer">3</button>
+			<button type="button" onclick="input('+');" style="cursor:pointer">+</button><br>
+			<button type="button" value="0" onclick="input('0');" style="cursor:pointer;width:180px;">0</button>
+			<button type="button" value="." onclick="input('.');" style="cursor:pointer">.</button>
+			<button type="button" onclick="cal();" style="cursor:pointer">=</button>
+		</form>
+	</center>
+</body>
+</html>
